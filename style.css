@@ -1,0 +1,49 @@
+@font-face {
+    font-family: hashiba;
+    src: url(Hashiba.ttf);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: url('sakura.gif') no-repeat center fixed;
+    background-size: cover;
+    background-color: rgb(114, 113, 113);
+    background-blend-mode: multiply;
+}
+
+.main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Arial';
+    text-align: center;
+    font-family: hashiba;
+    font-size: 2em;
+    color: white;
+}
+
+.tag {    
+    font-size: 4em;
+    margin-bottom: -5%
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: rgb(115, 62, 96);
+    background-color: rgba(115, 62, 96, 0);
+    border-radius: 10px;
+    border: 0px;
+    font-family: hashiba;
+    font-size: 1em;
+    color: white;
+    transition: ease-out 0.3s;
+}
+
+button:hover {
+    backdrop-filter: blur(10px);
+    background-color: rgb(56, 39, 50);
+}
