@@ -33,8 +33,7 @@ button {
     height: 50px;
     margin-bottom: 5px;
     cursor: pointer;
-    background-color: rgb(115, 62, 96);
-    background-color: rgba(115, 62, 96, 0);
+    background-color: rgba(105, 43, 31, 0);
     border-radius: 10px;
     border: 0px;
     font-family: hashiba;
@@ -45,5 +44,5 @@ button {
 
 button:hover {
     backdrop-filter: blur(10px);
-    background-color: rgb(56, 39, 50);
+    background-color: rgb(105, 43, 31);
 }
